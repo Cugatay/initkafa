@@ -1,0 +1,34 @@
+{
+    "name": "initkafa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "start": "ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "Cagatay Kaydir",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.2.0",
+        "inquirer": "^9.1.5",
+        "js-beautify": "^1.14.7"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.3",
+        "@types/js-beautify": "^1.13.3",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "vitest": "^0.29.2",
+        "@kodkafa/eslint-config": "^1.0.1",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "@typescript-eslint/eslint-plugin": "^5.54.1",
+        "@typescript-eslint/parser": "^5.54.1",
+        "eslint": "^8.35.0",
+        "eslint-plugin-react": "^7.32.2",
+        "prettier": "^2.8.4"
+    }
+}
